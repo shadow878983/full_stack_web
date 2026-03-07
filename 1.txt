@@ -1,0 +1,17 @@
+reset vs revert
+
+reset
+1-remove commits
+2- change commit history
+3- not safe for shared repo.
+4- move the head pointer to the another commit .
+5- git reset --hard commit id
+  git push -f
+
+
+revert 
+1-add new commit 
+2-does not change commit history
+3- safe for shared repo
+4- create a new commit that reverse changes 
+5- git revert commit id
